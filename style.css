@@ -140,3 +140,45 @@ button {
     font-size: 14px;
     text-align: center;
 }
+
+/* Formateamos la cita */
+
+.comentario {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e1fad1;
+    color: #4D7298;
+    font-size: 2vh;
+}
+
+.comentario .autor {
+    align-self: flex-end;
+
+}
+
+.calltoaction {
+    margin: 5% auto;
+    padding: 15px;
+    display: flex;
+    background-color: #4D7298;
+    gap: 5px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+}
+
+/* Formateamos el footer */
+
+.footer {
+    display: flex;
+    background-color: #4D7298;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .copyright {
+    margin: 15px;
+}
